@@ -1,6 +1,6 @@
-Personal Budget Management API
+**Personal Budget Management API**    
     This project is a RESTful API for managing personal budgets. It is built using Node.js, Express, MySQL, and JWT for authentication.
-Features
+**Features**    
     User registration and authentication
     User login with JWT tokens
     Budget management (add, delete)
@@ -9,11 +9,11 @@ Features
     RESTful API structure
     Getting Started
     Prerequisites
-Make sure you have the following installed on your machine:
+**Make sure you have the following installed on your machine:**    
     Node.js
     npm
     MySQL
-Endpoints
+**Endpoints**    
     POST /api/register: Register a new user.
     POST /api/signin: Sign in with an existing user.
     GET /api/userBudgets: Get user budgets (requires authentication).
@@ -23,7 +23,7 @@ Endpoints
     DELETE /api/deleteExpense/:expenseId: Delete an expense (requires authentication).
     POST /api/refreshAccessToken: Refresh the access token.
     GET /: Health check endpoint.
-Authentication
+**Authentication**    
     For endpoints requiring authentication, include the JWT token in the Authorization header.
-Testing
+**Testing**
     The project includes a test suite to ensure the reliability of the API. We use the Jest testing framework along with Supertest for making HTTP requests.
