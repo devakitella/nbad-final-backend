@@ -27,3 +27,4 @@ Authentication
     For endpoints requiring authentication, include the JWT token in the Authorization header.
 Testing
     The project includes a test suite to ensure the reliability of the API. We use the Jest testing framework along with Supertest for making HTTP requests.
+    Mysql is installed in the system where the backend in deployed.
